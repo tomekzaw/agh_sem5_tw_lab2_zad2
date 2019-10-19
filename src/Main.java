@@ -1,3 +1,8 @@
+import actions.GoShoppingAction;
+import actions.IAction;
+import objects.Customer;
+import places.Shop;
+
 import java.util.stream.IntStream;
 
 public class Main {

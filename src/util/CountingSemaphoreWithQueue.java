@@ -1,6 +1,7 @@
+package util;
+
 import java.util.LinkedList;
 import java.util.Queue;
-import java.util.function.Consumer;
 
 public class CountingSemaphoreWithQueue extends CountingSemaphore {
     private Queue<Long> queue = new LinkedList<>();

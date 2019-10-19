@@ -1,3 +1,5 @@
+package objects;
+
 public class Customer {
     private final int number;
 

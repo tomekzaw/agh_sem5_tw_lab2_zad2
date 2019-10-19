@@ -1,3 +1,5 @@
+package objects;
+
 public class Cart {
     private final int number;
 

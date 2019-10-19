@@ -1,4 +1,4 @@
-import java.util.function.Consumer;
+package util;
 
 public class CountingSemaphore implements ISemaphore {
     protected int count;
