@@ -14,22 +14,19 @@ public class Shop {
                 .collect(Collectors.toCollection(Stack::new));
     }
 
-    public void welcomeCustomer(Customer customer) {
-        this.sem.P(count -> System.out.println("Customer #" + customer.getNumber() + " enters the store. Semaphore value is now " + count + "."));
+    public void getIn() {
+        this.sem.P();
     }
 
-    public void goodbyeCustomer(Customer customer) {
-        this.sem.V(count -> System.out.println("Customer #" + customer.getNumber() + " leaves the store. Semaphore value is now " + count + "."));
+    public void getOut() {
+        this.sem.V();
     }
 
-    public Cart takeCart(Consumer<Cart> onComplete) {
-        Cart cart = this.carts.pop();
-        onComplete.accept(cart);
-        return cart;
+    public Cart takeCart() {
+        return this.carts.pop();
     }
 
-    public void returnCart(Cart cart, Consumer<Cart> onComplete) {
+    public void returnCart(Cart cart) {
         this.carts.push(cart);
-        onComplete.accept(cart);
     }
 }

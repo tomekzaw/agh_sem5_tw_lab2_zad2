@@ -11,7 +11,7 @@ public class CountingSemaphoreWithQueue extends CountingSemaphore {
 
     // P — opuszczanie semafora (hol. proberen), powoduje zmniejszenie wartości zmiennej semaforowej
     @Override
-    public synchronized void P(Consumer<Integer> onComplete) {
+    public synchronized void P() {
         this.queue.add(Thread.currentThread().getId());
         while (!(this.count > 0 && this.queue.peek() == Thread.currentThread().getId())) {
             try {
@@ -20,14 +20,12 @@ public class CountingSemaphoreWithQueue extends CountingSemaphore {
         }
         this.queue.remove();
         --this.count;
-        onComplete.accept(this.count);
     }
 
     // V — podnoszenie semafora (hol. verhogen). powoduje zwiekszanie wartości zmiennej semaforowej
     @Override
-    public synchronized void V(Consumer<Integer> onComplete) {
+    public synchronized void V() {
         ++this.count;
         this.notifyAll();
-        onComplete.accept(this.count);
     }
 }

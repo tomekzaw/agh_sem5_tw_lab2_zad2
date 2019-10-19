@@ -12,21 +12,19 @@ public class CountingSemaphore implements ISemaphore {
 
     // P — opuszczanie semafora (hol. proberen), powoduje zmniejszenie wartości zmiennej semaforowej
     @Override
-    public synchronized void P(Consumer<Integer> onComplete) {
+    public synchronized void P() {
         while (this.count == 0) {
             try {
                 this.wait();
             } catch (InterruptedException __) {}
         }
         --this.count;
-        onComplete.accept(this.count);
     }
 
     // V — podnoszenie semafora (hol. verhogen). powoduje zwiekszanie wartości zmiennej semaforowej
     @Override
-    public synchronized void V(Consumer<Integer> onComplete) {
+    public synchronized void V() {
         ++this.count;
         this.notify();
-        onComplete.accept(this.count);
     }
 }
