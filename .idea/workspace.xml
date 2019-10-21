@@ -3,24 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3a8ee3ab-8fe0-4cad-b533-d56568104e25" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/agh_sem5_tw_lab2_zad2/Cart.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/agh_sem5_tw_lab2_zad2/CountingSemaphore.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/agh_sem5_tw_lab2_zad2/CountingSemaphoreWithQueue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/agh_sem5_tw_lab2_zad2/Customer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/agh_sem5_tw_lab2_zad2/GoShoppingAction.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/agh_sem5_tw_lab2_zad2/IAction.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/agh_sem5_tw_lab2_zad2/ISemaphore.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/agh_sem5_tw_lab2_zad2/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/agh_sem5_tw_lab2_zad2/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/agh_sem5_tw_lab2_zad2/Shop.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/objects/Cart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CountingSemaphore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/CountingSemaphore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CountingSemaphoreWithQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/CountingSemaphoreWithQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/objects/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GoShoppingAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/GoShoppingAction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/IAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/IAction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ISemaphore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/ISemaphore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Shop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/places/Shop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/util/ISemaphore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/ISemaphore.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,10 +22,12 @@
     <session id="-739633133">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.0" value="3" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -74,8 +59,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="29" lean-forward="true" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+            <state relative-caret-position="68">
+              <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -83,11 +68,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/util/ISemaphore.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+            <state>
+              <caret column="13" selection-start-column="13" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -95,18 +80,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/places/Shop.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
+            <state relative-caret-position="68">
               <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#590#591#0" expanded="true" />
-                <element signature="e#618#619#0" expanded="true" />
-                <element signature="e#672#673#0" expanded="true" />
-                <element signature="e#700#701#0" expanded="true" />
-                <element signature="e#755#756#0" expanded="true" />
-                <element signature="e#794#795#0" expanded="true" />
-                <element signature="e#862#863#0" expanded="true" />
-                <element signature="e#899#900#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -121,11 +98,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/actions/GoShoppingAction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="10" column="59" lean-forward="true" selection-start-line="10" selection-start-column="59" selection-end-line="10" selection-end-column="59" />
+            <state relative-caret-position="154">
+              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1296#1297#0" expanded="true" />
@@ -140,12 +117,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
               <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-              <folding>
-                <element signature="e#81#82#0" expanded="true" />
-                <element signature="e#117#118#0" expanded="true" />
-                <element signature="e#167#168#0" expanded="true" />
-                <element signature="e#196#197#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -155,12 +126,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
               <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-              <folding>
-                <element signature="e#77#78#0" expanded="true" />
-                <element signature="e#105#106#0" expanded="true" />
-                <element signature="e#147#148#0" expanded="true" />
-                <element signature="e#181#182#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -168,8 +133,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/util/CountingSemaphore.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="476">
+              <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -211,6 +176,7 @@
         <option value="$PROJECT_DIR$/src/GoShoppingAction.java" />
         <option value="$PROJECT_DIR$/src/actions/IAction.java" />
         <option value="$PROJECT_DIR$/src/actions/GoShoppingAction.java" />
+        <option value="$PROJECT_DIR$/src/util/ISemaphore.java" />
       </list>
     </option>
   </component>
@@ -271,8 +237,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -331,17 +297,19 @@
       <workItem from="1571068060517" duration="4330000" />
       <workItem from="1571500789210" duration="1809000" />
       <workItem from="1571503953334" duration="4332000" />
+      <workItem from="1571508542717" duration="25000" />
+      <workItem from="1571661861852" duration="486000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11353000" />
+    <option name="totallyTimeSpent" value="11864000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18993288" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19530201" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -350,7 +318,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.34844193" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.34844193" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -379,75 +347,20 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/objects/Customer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding>
-            <element signature="e#81#82#0" expanded="true" />
-            <element signature="e#117#118#0" expanded="true" />
-            <element signature="e#167#168#0" expanded="true" />
-            <element signature="e#196#197#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/objects/Cart.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding>
-            <element signature="e#77#78#0" expanded="true" />
-            <element signature="e#105#106#0" expanded="true" />
-            <element signature="e#147#148#0" expanded="true" />
-            <element signature="e#181#182#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/util/CountingSemaphore.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/util/CountingSemaphoreWithQueue.java">
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/util/ISemaphore.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/places/Shop.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
+        <state relative-caret-position="68">
           <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#590#591#0" expanded="true" />
-            <element signature="e#618#619#0" expanded="true" />
-            <element signature="e#672#673#0" expanded="true" />
-            <element signature="e#700#701#0" expanded="true" />
-            <element signature="e#755#756#0" expanded="true" />
-            <element signature="e#794#795#0" expanded="true" />
-            <element signature="e#862#863#0" expanded="true" />
-            <element signature="e#899#900#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="29" lean-forward="true" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -461,15 +374,50 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/objects/Customer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/objects/Cart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/actions/GoShoppingAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="10" column="59" lean-forward="true" selection-start-line="10" selection-start-column="59" selection-end-line="10" selection-end-column="59" />
+        <state relative-caret-position="154">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1296#1297#0" expanded="true" />
             <element signature="e#1372#1373#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/util/CountingSemaphoreWithQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/util/CountingSemaphore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/util/ISemaphore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
         </state>
       </provider>
     </entry>
