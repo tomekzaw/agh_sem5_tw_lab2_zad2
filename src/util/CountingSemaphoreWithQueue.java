@@ -4,7 +4,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 
 public class CountingSemaphoreWithQueue extends CountingSemaphore {
-    private Queue<Long> queue = new LinkedList<>();
+    private Queue<Thread> queue = new LinkedList<>();
 
     public CountingSemaphoreWithQueue(int initialCount) {
         super(initialCount);
@@ -13,13 +13,14 @@ public class CountingSemaphoreWithQueue extends CountingSemaphore {
     // P — opuszczanie semafora (hol. proberen), powoduje zmniejszenie wartości zmiennej semaforowej
     @Override
     public synchronized void P() {
-        this.queue.add(Thread.currentThread().getId());
-        while (!(this.count > 0 && this.queue.peek() == Thread.currentThread().getId())) {
+
+        while (!(this.count > 0 )) {
             try {
+                this.queue.add(Thread.currentThread());
                 this.wait();
             } catch (InterruptedException __) {}
         }
-        this.queue.remove();
+        //this.queue.remove();
         --this.count;
     }
 
@@ -27,6 +28,9 @@ public class CountingSemaphoreWithQueue extends CountingSemaphore {
     @Override
     public synchronized void V() {
         ++this.count;
-        this.notifyAll();
+        if (!queue.isEmpty()) {
+            queue.remove().notify();
+        }
+        //this.notifyAll();
     }
 }
